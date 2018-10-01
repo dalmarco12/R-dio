@@ -1,0 +1,111 @@
+root { 
+    display: block;
+color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #404040;
+
+}
+
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 530px;
+    height: 110px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto
+
+}
+
+div.rele1_ligado {
+    position: absolute;
+    right: 218px;
+    top: 260px;
+    width: 300px;
+    height: 206px;
+    border: none;
+		margin:auto;
+    background: url(Ar_Ligado.jpg) no-repeat left top;
+}
+
+div.rele1_desligado {
+    position: absolute;
+    right: 218px;
+    top: 260px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(Ar_Desligado.jpg) no-repeat left top;
+}
+
+div.rele2_ligado {
+    position: absolute;
+    right: -140px;
+    top: 260px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(Ar_Ligado.jpg) no-repeat left top;
+}
+
+div.rele2_desligado {
+    position: absolute;
+    right: -140px;
+    top: 260px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(Ar_Desligado.jpg) no-repeat left top;
+}
+
+#div1 {
+	position: absolute;
+	right: 340px;
+	top: 200px;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    color:#ffffff;
+    
+}
+
+#div2 {
+	position: absolute;
+	right: -20px;
+	top: 200px;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 200px;
+    height: 180px;
+    text-align: center;
+    color:#ffffff;
+
+}
+
+#div3 {
+	position: absolute;
+	right: -20px;
+	top: 410px;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    color:#ffffff;
+}
+#div4 {
+	position: absolute;
+	right: 340px;
+	top: 410px;
+    border-radius: 25px;
+    border: 2px solid white;
+    width: 200px;
+    height: 90px;
+    text-align: center;
+    color:#ffffff;
